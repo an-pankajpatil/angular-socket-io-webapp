@@ -12,3 +12,12 @@ npm install
 bower install
 
 ````
+
+###Run App
+
+Navigate to the project root directory and run the following command to run the app
+
+````
+grunt serve
+
+````
