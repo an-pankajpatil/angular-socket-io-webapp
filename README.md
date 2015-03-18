@@ -1,2 +1,14 @@
-# angular-socket-io-webapp
-angular webapp with socket.io
+# Angular-Socket.io Chat Webapp
+
+A simple client side chat application using Angular and Socket.io
+
+
+###Installing Dependencies
+
+Navigate to the project root directory and run the following commands to install all the dependencies needed by the project.
+
+````
+npm install
+bower install
+
+````
