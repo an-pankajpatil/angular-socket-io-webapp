@@ -15,7 +15,7 @@ bower install
 
 ###Run App
 
-<<<<<<< HEAD
+<<<<<<<
 Navigate to the project root directory and run the following command to run the app
 =======
 Execute the below command to run the app - 
