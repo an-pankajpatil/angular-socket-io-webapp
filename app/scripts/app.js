@@ -16,7 +16,8 @@ angular
     'ngGrid',
     'restangular',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'btford.socket-io'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -27,6 +28,10 @@ angular
       .when('/profile', {
         templateUrl: 'views/profile.html',
         controller: 'MainCtrl'
+      })
+      .when('/dashboard', {
+        templateUrl: 'views/dashboard.html',
+        controller: 'DashboardCtrl'
       })
       .when('/members', {
         templateUrl: 'views/members.html',

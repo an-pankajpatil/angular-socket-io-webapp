@@ -1,0 +1,28 @@
+<div class="header">
+
+    <section ng-include="'views/navigation.html'" ng-controller="LoginSessionCtrl"></section>
+    <h1 class="title ng-binding">Admin Panel</h1> 
+</div>
+    <section class="page-content">
+        <div class="container">
+            <header class="page-title">
+                <h3>Dashboard</h3>
+            </header>
+           <!-- <p class="info" style="margin-bottom:1.5em !important;">Email inactive members a new invite to download and register to use the app.</p>-->
+            <form role="form" enctype="multipart/form-data" name="frminvite" novalidate>
+                <div class="form-group">
+                   <p>Send Message to all members</p>
+                    <p class="lead">
+                        <textarea ng-model="msg" ng-trim="true" name="msg" class="form-control" required></textarea>
+                        <div ng-messages="frminvite.msg.$error" class="errors">
+                            <span class="error" ng-show="frminvite.fname.$error.required">Required!</span>
+                        </div>
+                    </p>
+                <p><button type="button" name="btnSubmit" ng-disabled="!frminvite.$valid" class="btn btn-lg btn-success" ng-click="sendmessage(msg);">Send</button></p>
+            </div>
+            <div class="form-group">
+                
+            </div>
+        </form>
+        </div>  
+    </section>

@@ -75,18 +75,22 @@
     <script src="bower_components/lodash/dist/lodash.compat.js"></script>
     <script src="bower_components/restangular/dist/restangular.js"></script>
     <script src="bower_components/ng-grid/build/ng-grid.js"></script>
+    <script src="bower_components/angular-socket-io/socket.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/services/config.js"></script>
+        <script src="scripts/socket.io-1.1.0.js"></script>
         <script src="scripts/services/storage.js"></script>
         <script src="scripts/controllers/checksession.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/dashboard.js"></script>
         <script src="scripts/controllers/members.js"></script>
         <script src="scripts/services/admin.js"></script>
-      <script src="scripts/services/members.js"></script>
+        <script src="scripts/services/members.js"></script>
+        <script src="scripts/factory/Socket.js"></script>
         <!-- endbuild -->
 </body>
 </html>
